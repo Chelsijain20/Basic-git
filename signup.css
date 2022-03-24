@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montaga', serif;
+    font-size: 20px;
+}
+body {
+  background: url(/images/background_image.png) no-repeat;
+  background-size: cover;
+}
+.main{
+    margin: 100px 150px;
+    border: 2px solid #BDE4F4;
+    border-radius: 0.7em;
+    background-color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 2em 3em;
+}
+.college_pic{
+    width: 50%;
+    padding: 0 5em;
+}
+.college_pic img{
+    width: 17em;
+    height: 17em;
+    border-radius: 50%;
+}
+
+.sign-in{
+    width: 50%;
+    padding: 0 4em;
+}
+h1{
+    font-size: 1.5em;
+    margin: 0 4em;
+    color: #1C6DD0;
+}
+.sign-in p{
+    text-align: center;
+    margin: 0 2em 1em;
+    color: #53c6d8;
+}
+.social p{
+    margin: 0 5em;
+    color: #d1d1d1;
+    font-size: 0.8em;
+}
+input {
+    font-family: 'Satisfy', cursive;
+    border-radius: 5em;
+    text-decoration: none;
+    background: none;
+    outline: none;
+    margin: 0 2em 0.7em;
+    width: 15em;
+    height: 1.7em;
+    border: 2px solid #e9e8e8;
+}
+.sign-in a{
+    font-size: 0.8em;
+    text-decoration: none;
+    background: none;
+    outline: none;
+    margin: 0 8em;
+    color: #1C6DD0;
+}
+.button{
+    margin: 1em 2em;
+
+}
+button{
+    padding: 0.2em 2em;
+    color: white;
+    background: linear-gradient(to right, #1c6dd0, #1cb5d0 );
+    border: 2px solid white;
+    border-radius: 3em;
+}
+.images img{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 2px solid #e9e8e8;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em 4em;
+}
+
+.container{
+    height: 2.3em;
+    margin: 1em 3em;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul{
+	display: flex;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	color:rgb(25, 112, 212);
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: none;
+	margin:0px 20px;
+}
+nav ul li a:hover{
+	color:#68686be1;
+}
+nav ul li .active{
+	color:#eff1ed;
+}
+footer{
+    background-color:rgb(25, 112, 212);
+    color:white;
+}
+footer p{
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.3em 0;
+}
